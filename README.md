@@ -1,69 +1,48 @@
-# Awesome-Fantasy-Roleplaying-Game-World-Building
+# 🐉 Awesome Fantasy Roleplaying Game & World Building 🏰
 
 <p align="center">
-
-  <img src="./assets/banner.svg" alt="Top Fantasy Roleplaying & Game World Building" width="100%" />
-
+  <img src="./assets/banner.svg" alt="Top Fantasy Roleplaying & Game World Building - Curated Tools, Virtual Tabletops, Cartography & Worldbuilding Wikis" width="100%" />
 </p>
-
-
 
 <p align="center">
-
-  <a href="https://github.com"><img src="https://shields.io" alt="Awesome"/></a>
-
-  <a href="https://discord.gg"><img src="https://shields.io" alt="Discord" /></a>
-
-  <a href="https://github.com"><img src="https://shields.io" alt="GitHub stars" /></a>
-
-  <a href="https://github.com"><img src="https://shields.io" alt="GitHub forks" /></a>
-
-  <a href="https://github.com"><img alt="GitHub followers" src="https://shields.io" /></a>
-
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Fantasy-Roleplaying-Game-World-Building/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Fantasy-Roleplaying-Game-World-Building?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Fantasy-Roleplaying-Game-World-Building/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Fantasy-Roleplaying-Game-World-Building?style=social" alt="GitHub forks" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
-
-
-# 🐉 Top Fantasy Roleplaying & Game World Building
-
-
+# 🐉 Top Fantasy Roleplaying & Game World Building ⚔️
 
 **Curated List of SaaS/Commercial Platforms & Open-Source GitHub Projects**  
-
 *Focused on Virtual Tabletops (VTTs), Procedural Fantasy Map Generators, Worldbuilding Wikis, Campaign Managers & Lore Bibles*  
-
 **Last updated: November 2026**
 
+Welcome to the definitive curated index of software, tools, and digital solutions for **Fantasy Roleplaying (TTRPGs)**, **Game World Building**, and **Campaign Lore Architecture**. Whether you are a Game Master orchestrating a multi-year D&D campaign, an indie game developer designing a fictional kingdom, or an author engineering a sprawling fantasy multiverse, this repository provides battle-tested platforms for:
 
+- 🎲 **Virtual Tabletops (VTTs)**: Browser-based and self-hosted engines featuring dynamic line-of-sight lighting, fog of war, animated token combat, dice rollers, and interactive character sheets (`Roll20`, `Foundry VTT`, `Owlbear Rodeo`, `PlanarAlly`).
+- 🗺️ **Procedural & Vector Cartography**: Continent, dungeon, city, and battlemap makers with SVG/PNG/GeoJSON export support (`Azgaar's Fantasy Map Generator`, `Watabou Medieval Fantasy City Generator`, `Inkarnate`, `Tiled`).
+- 📚 **Worldbuilding Lore Bibles & Campaign Wikis**: Interlinked Markdown vaults, entity relationship networks, interactive timeline charts, and GM campaign dashboards (`World Anvil`, `Talorys`, `LegendKeeper`, `Campfire`, `Chronicler`, `Fantasia Archive`, `Kanka`).
+- 🧙 **Ruleset Compendiums & SRD Automation**: Deep character builders and SRD ruleset implementations for D&D 5e/2024, Pathfinder, and indie systems.
 
-This repository tracks notable **SaaS/Commercial platforms** and **open-source projects** for **Fantasy Roleplaying & Game World Building**. These tools power browser-based Virtual Tabletops (VTTs), dynamic fog-of-war battlemaps, procedural continent/city/dungeon cartography (`Azgaar's Fantasy Map Generator`, `Watabou`), interconnected campaign wikis and lore bibles (`Talorys`, `Kanka`, `Obsidian` TTRPG vaults), and character sheet engines for Game Masters, indie RPG designers, and fantasy worldbuilders.
+---
 
+### 🌟 Key Highlights & Market Trends
+- **🚀 Commercial Category Leaders**: D&D Beyond (Hasbro / Wizards of the Coast), Roll20, Foundry VTT, Fantasy Grounds (SmiteWorks), Inkarnate, World Anvil, Alchemy RPG, Campfire Technology, Owlbear Rodeo, and LegendKeeper.
+- **🛡️ Open-Source & Self-Hosted Powerhouses**: Extensive coverage of self-hosted VTTs (`PlanarAlly`, `MapTool`, `Atlas VTT`), procedural map tools (`Azgaar's FMG`, `Watabou Procgen`, `Tiled`), and offline-first lore wikis (`Talorys`, `Fantasia Archive`, `Chronicler`, `Kanka`) for creators seeking data ownership and $0 recurring subscriptions.
 
+🤝 **Contributions welcome!** Check out the [Contribution Guidelines](#-how-to-contribute) to add or update projects. Please ensure descriptions are accurate, neutral, and accompanied by transparent tier and pricing information.
 
-**Examples** include D&D Beyond (Hasbro / Wizards of the Coast), Roll20 (Roll20, LLC), Foundry VTT, Fantasy Grounds (SmiteWorks), Inkarnate, World Anvil, Alchemy RPG, Campfire Technology, Owlbear Rodeo, and LegendKeeper (the category leaders).
-
-
-
-**🚀 Open-source emphasis**: This section is heavily expanded with every major active project for self-hosted Virtual Tabletops (`PlanarAlly`, `MapTool`, `Mythic Table`, `Cauldron VTT`, `Dddice`), procedural world/city/dungeon map generators (`Azgaar's Fantasy Map Generator`, `Watabou Procgen`, `Dungeon Scrawl` open tools, `Tiled`), and worldbuilding/lore management studios (`Talorys`, `Fantasia Archive`, `Kanka`, `Improved Initiative`) — ideal for GMs, indie TTRPG publishers, and game developers building custom worlds without recurring per-seat SaaS subscriptions.
-
-
-
-🤝 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
+---
 
 ## 📑 Table of Contents
 
 - [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
-
 - [☁️ SaaS/Hosted & Commercial Platforms](#️-saashosted--commercial-platforms)
-
 - [💻 Open-Source GitHub Projects](#-open-source-github-projects)
-
+- [📈 Star History](#-star-history)
 - [🛠️ How to Contribute](#️-how-to-contribute)
-
 - [⚠️ Disclaimer](#️-disclaimer)
-
 - [💖 Support & Thank You](#-support--thank-you)
 
 
@@ -128,3 +107,41 @@ The global Tabletop RPG (TTRPG), Virtual Tabletop (VTT) & Digital Worldbuilding 
 | **[Notebook.ai (`indentlabs/notebook`)](https://github.com/indentlabs/notebook)** [![GitHub stars](https://img.shields.io/github/stars/indentlabs/notebook?style=social&color=white)](https://github.com/indentlabs/notebook/stargazers) | Open-source universe creation notebook and worldbuilding tracker for authors, game designers, and roleplayers to manage interconnected lore. | **MIT License / Open-Source** ($0 self-hosted Rails app) | **100% Free Forever** (Self-hosted installation supports unlimited universes, characters, locations, items, and magic systems) |
 | **[Fantasia Archive (`vishiri/fantasia-archive`)](https://github.com/vishiri/fantasia-archive)** [![GitHub stars](https://img.shields.io/github/stars/vishiri/fantasia-archive?style=social&color=white)](https://github.com/vishiri/fantasia-archive/stargazers) | Free, completely offline, local-first worldbuilding database and encyclopedia software for novelists, RPG GMs, and world creators. | **GPL-3.0 / Open-Source** ($0 local offline application) | **100% Free Forever** (Unlimited entries, rich entity relationships, and document hierarchies stored 100% on your local machine) |
 | **[Kanka (`owlchester/kanka`)](https://github.com/owlchester/kanka)** [![GitHub stars](https://img.shields.io/github/stars/owlchester/kanka?style=social&color=white)](https://github.com/owlchester/kanka/stargazers) | Community-driven worldbuilding and tabletop RPG campaign management suite featuring interactive maps, timelines, and entity relations. | **AGPL-3.0 / Open-Source** ($0 self-hosted Laravel app) | **100% Free Forever** (Self-hosted core allows unlimited entities, campaigns, timeline events, and community modules) |
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Fantasy-Roleplaying-Game-World-Building&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Fantasy-Roleplaying-Game-World-Building&type=date&legend=top-left)
+
+---
+
+## 🛠️ How to Contribute
+
+Contributions are warmly welcomed! Help keep this repository the most complete, accurate, and up-to-date resource for Game Masters, worldbuilders, and RPG developers:
+
+1. 🍴 **Fork the repository** to your GitHub account.
+2. 🌿 **Create a branch** for your addition (`git checkout -b feature/add-new-ttrpg-tool`).
+3. 📝 **Add your entry** adhering to the existing markdown table format:
+   - For SaaS tools: include verified starting tier pricing, explicit free tier / trial limits, and company scale estimates.
+   - For Open-Source tools: include a social-style star badge linked to the repo's stargazers page and ensure entries remain sorted descending by star count.
+4. 🧪 **Check formatting** to ensure links, badges, and tables render cleanly.
+5. 🚀 **Submit a Pull Request** with a concise description of the added tool.
+
+---
+
+## ⚠️ Disclaimer
+
+Product names, logos, trademarks, and registered trademarks cited in this repository are property of their respective owners. Mention of commercial software (e.g., Wizards of the Coast / D&D Beyond, Roll20, Foundry VTT) does not imply endorsement, affiliation, or sponsorship. Pricing tiers and trial allowances are based on publicly available documentation as of late 2026 and are subject to change by vendors.
+
+---
+
+## 💖 Support & Thank You
+
+A huge thank you to all the dungeon masters, worldbuilders, authors, cartographers, and open-source contributors who pour their imagination into expanding tabletop and digital roleplaying! 🎲✨
+
+If you find this curated directory helpful for your campaigns or game dev projects:
+- ⭐ **Star this repository** to help fellow worldbuilders discover it!
+- 🍴 **Fork and share** it with your TTRPG group, gaming guild, or indie community.
+- ☕ **Buy me a coffee / Sponsor**: If you'd like to support ongoing curation and maintenance, visit the **[GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007)**! Every bit of support is deeply appreciated! 💖
+

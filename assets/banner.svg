@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0813" />
+      <stop offset="50%" stop-color="#140e28" />
+      <stop offset="100%" stop-color="#1c113b" />
+    </linearGradient>
+
+    <!-- Glowing Orbs Gradients -->
+    <radialGradient id="orb-purple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#9333ea" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#9333ea" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="orb-cyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="orb-amber" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Card Background Gradient -->
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a1b4e" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#181133" stop-opacity="0.85" />
+    </linearGradient>
+
+    <!-- Text Gradients -->
+    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fde047" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#fbbf24" />
+    </linearGradient>
+    <linearGradient id="cyan-purple-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <!-- Subtle Hex Pattern -->
+    <pattern id="hex-grid" width="40" height="69.282" patternUnits="userSpaceOnUse" patternTransform="scale(1)">
+      <path d="M 40 0 L 20 11.547 L 0 0 L 0 23.094 L 20 34.641 L 40 23.094 Z M 0 34.641 L 20 46.188 L 0 57.735 L 0 69.282 L 40 69.282 L 40 57.735 L 20 46.188 L 40 34.641 Z" fill="none" stroke="#6366f1" stroke-width="0.7" stroke-opacity="0.12"/>
+    </pattern>
+
+    <style>
+      /* Ambient Floating Animations */
+      @keyframes floatSlow1 {
+        0%, 100% { transform: translateY(0px) scale(1); }
+        50% { transform: translateY(-16px) scale(1.08); }
+      }
+      @keyframes floatSlow2 {
+        0%, 100% { transform: translateY(0px) scale(1.05); }
+        50% { transform: translateY(18px) scale(0.95); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.35; filter: blur(30px); }
+        50% { opacity: 0.65; filter: blur(45px); }
+      }
+      @keyframes driftPill1 {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-7px); }
+      }
+      @keyframes driftPill2 {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(8px); }
+      }
+      @keyframes shimmerLine {
+        0% { stroke-dashoffset: 400; }
+        100% { stroke-dashoffset: 0; }
+      }
+
+      .floating-orb1 { animation: floatSlow1 9s ease-in-out infinite, pulseGlow 7s ease-in-out infinite; }
+      .floating-orb2 { animation: floatSlow2 11s ease-in-out infinite, pulseGlow 9s ease-in-out infinite; }
+      .pill-move1 { animation: driftPill1 5s ease-in-out infinite; }
+      .pill-move2 { animation: driftPill2 6.5s ease-in-out infinite; }
+      .pill-move3 { animation: driftPill1 5.8s ease-in-out infinite reverse; }
+      .animated-border {
+        stroke-dasharray: 200, 200;
+        animation: shimmerLine 12s linear infinite;
+      }
+      .title-text {
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Cinzel', 'Trajan Pro', serif, sans-serif;
+        font-weight: 900;
+        letter-spacing: -0.5px;
+      }
+      .subtitle-text {
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+        font-weight: 500;
+        letter-spacing: 0.3px;
+      }
+    </style>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1200" height="420" rx="16" fill="url(#bg-grad)" />
+  <!-- Hexagonal Grid Overlay -->
+  <rect width="1200" height="420" rx="16" fill="url(#hex-grid)" />
+
+  <!-- Background Animated Glowing Orbs -->
+  <circle cx="180" cy="110" r="170" fill="url(#orb-purple)" class="floating-orb1" />
+  <circle cx="1030" cy="300" r="210" fill="url(#orb-cyan)" class="floating-orb2" />
+  <circle cx="620" cy="20" r="140" fill="url(#orb-amber)" class="floating-orb1" />
+
+  <!-- Dynamic Animated Ambient Cards & Feature Badges (strictly background/flanking) -->
+  <g class="pill-move1" transform="translate(75, 45)">
+    <rect width="180" height="42" rx="21" fill="url(#card-grad)" stroke="#a855f7" stroke-opacity="0.4" stroke-width="1.2" />
+    <text x="90" y="26" text-anchor="middle" fill="#e9d5ff" font-size="13" font-family="system-ui, sans-serif" font-weight="600">🎲 Virtual Tabletops</text>
+  </g>
+
+  <g class="pill-move2" transform="translate(945, 52)">
+    <rect width="185" height="42" rx="21" fill="url(#card-grad)" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1.2" />
+    <text x="92" y="26" text-anchor="middle" fill="#bae6fd" font-size="13" font-family="system-ui, sans-serif" font-weight="600">🗺️ World Cartography</text>
+  </g>
+
+  <g class="pill-move3" transform="translate(90, 325)">
+    <rect width="210" height="42" rx="21" fill="url(#card-grad)" stroke="#f59e0b" stroke-opacity="0.4" stroke-width="1.2" />
+    <text x="105" y="26" text-anchor="middle" fill="#fde68a" font-size="13" font-family="system-ui, sans-serif" font-weight="600">🏰 Lore Bibles &amp; Wikis</text>
+  </g>
+
+  <g class="pill-move1" transform="translate(915, 325)">
+    <rect width="200" height="42" rx="21" fill="url(#card-grad)" stroke="#10b981" stroke-opacity="0.4" stroke-width="1.2" />
+    <text x="100" y="26" text-anchor="middle" fill="#a7f3d0" font-size="13" font-family="system-ui, sans-serif" font-weight="600">⚡ Procedural Gen Tools</text>
+  </g>
+
+  <!-- Decorative Outer Shimmer Border -->
+  <rect x="12" y="12" width="1176" height="396" rx="12" fill="none" stroke="#6366f1" stroke-opacity="0.25" stroke-width="1.5" class="animated-border" />
+
+  <!-- Main Hero Content: High Contrast & Foreground -->
+  <g id="hero-content">
+    <!-- Category Mini-Header Badge -->
+    <g transform="translate(600, 105)">
+      <rect x="-170" y="-18" width="340" height="34" rx="17" fill="#1e163b" stroke="#8b5cf6" stroke-width="1.2" stroke-opacity="0.8" />
+      <text x="0" y="5" text-anchor="middle" fill="#c4b5fd" font-size="12" font-family="system-ui, sans-serif" font-weight="700" letter-spacing="2">⚔️ THE CURATED TTRPG COMPENDIUM ⚔️</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="600" y="180" text-anchor="middle" fill="url(#gold-grad)" font-size="44" class="title-text">
+      Fantasy Roleplaying &amp; World Building
+    </text>
+
+    <!-- Subtitle -->
+    <text x="600" y="222" text-anchor="middle" fill="#f1f5f9" font-size="20" class="subtitle-text">
+      The Ultimate Hub for Virtual Tabletops, Map Cartography &amp; Campaign Lore Engines
+    </text>
+
+    <!-- Sub-description Pill / Highlight -->
+    <text x="600" y="258" text-anchor="middle" fill="#94a3b8" font-size="14.5" font-family="system-ui, sans-serif">
+      Curated Commercial Platforms &bull; Open-Source Self-Hosted Software &bull; Game Master Toolkits
+    </text>
+
+    <!-- Decorative Central Divider -->
+    <line x1="450" y1="278" x2="750" y2="278" stroke="url(#cyan-purple-grad)" stroke-width="2" stroke-linecap="round" />
+  </g>
+</svg>
